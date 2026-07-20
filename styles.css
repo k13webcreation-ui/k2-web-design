@@ -133,14 +133,16 @@ a {
 }
 
 .logo {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 800;
     color: var(--dark);
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: -1px;
 }
 
 .logo span {
     color: var(--primary);
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .nav-links {
@@ -661,6 +663,10 @@ a {
 .footer-bottom p {
     color: var(--gray);
     font-size: 0.875rem;
+}
+
+.footer-logo {
+    font-size: 1.8rem;
 }
 
 /* Responsive Design */
