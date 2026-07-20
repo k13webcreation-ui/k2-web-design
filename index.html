@@ -63,6 +63,18 @@
                     <button id="playBtn" class="play-btn" onclick="playVideo()">
                         <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="white"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
                     </button>
+                    <div id="controls" class="video-controls hidden">
+                        <button class="control-btn" id="pauseBtn" onclick="pauseVideo()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white"><rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect></svg>
+                        </button>
+                        <div class="volume-control">
+                            <button class="control-btn" id="muteBtn" onclick="toggleMute()">
+                                <svg id="volumeIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+                                <svg id="muteIcon" class="hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><line x1="23" y1="9" x2="17" y2="15"></line><line x1="17" y1="9" x2="23" y2="15"></line></svg>
+                            </button>
+                            <input type="range" id="volumeSlider" class="volume-slider" min="0" max="1" step="0.1" value="1" oninput="changeVolume(this.value)">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -256,9 +268,56 @@
         function playVideo() {
             const video = document.getElementById('heroVideo');
             const btn = document.getElementById('playBtn');
+            const controls = document.getElementById('controls');
             video.muted = false;
             video.play();
             btn.classList.add('hidden');
+            controls.classList.remove('hidden');
+        }
+
+        // Pause video
+        function pauseVideo() {
+            const video = document.getElementById('heroVideo');
+            video.pause();
+        }
+
+        // Toggle mute
+        function toggleMute() {
+            const video = document.getElementById('heroVideo');
+            const volumeIcon = document.getElementById('volumeIcon');
+            const muteIcon = document.getElementById('muteIcon');
+            const slider = document.getElementById('volumeSlider');
+            
+            if (video.muted) {
+                video.muted = false;
+                volumeIcon.classList.remove('hidden');
+                muteIcon.classList.add('hidden');
+                slider.value = video.volume;
+            } else {
+                video.muted = true;
+                volumeIcon.classList.add('hidden');
+                muteIcon.classList.remove('hidden');
+                slider.value = 0;
+            }
+        }
+
+        // Change volume
+        function changeVolume(value) {
+            const video = document.getElementById('heroVideo');
+            const volumeIcon = document.getElementById('volumeIcon');
+            const muteIcon = document.getElementById('muteIcon');
+            
+            video.volume = value;
+            
+            if (value == 0) {
+                video.muted = true;
+                volumeIcon.classList.add('hidden');
+                muteIcon.classList.remove('hidden');
+            } else {
+                video.muted = false;
+                volumeIcon.classList.remove('hidden');
+                muteIcon.classList.add('hidden');
+            }
         }
 
         // Mobile menu toggle
