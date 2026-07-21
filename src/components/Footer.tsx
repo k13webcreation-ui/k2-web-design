@@ -46,7 +46,7 @@ export default function Footer() {
             </a>
             <p className="text-dark-400 leading-relaxed max-w-md mb-6 text-sm">
               Professional, modern websites that help your business grow. Custom design,
-              fast delivery, and ongoing support. See how your business could look online
+              reliable hosting, and ongoing support. See how your business could look online
               with a free demo.
             </p>
             <div className="flex items-center gap-3">

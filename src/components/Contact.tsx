@@ -117,7 +117,7 @@ export default function Contact() {
                     <img
                       src="/k2-web-design/qr-code.jpg"
                       alt="WhatsApp QR Code - Scan to chat with K2 Web Design"
-                      className="w-40 h-40 object-contain rounded-lg"
+                      className="w-56 h-56 object-contain rounded-lg"
                     />
                   </div>
                 </div>

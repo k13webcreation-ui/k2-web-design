@@ -16,7 +16,7 @@ const faqs = [
   {
     question: 'How long does it take to build a website?',
     answer:
-      "Most websites are ready within 24 hours. For more complex projects with custom features, we'll provide a clear timeline during our initial consultation. We pride ourselves on fast, efficient delivery.",
+      "Most websites are ready within a few days. For more complex projects with custom features, we'll provide a clear timeline during our initial consultation. We pride ourselves on efficient, quality delivery.",
   },
   {
     question: 'Will my website work on mobile phones?',

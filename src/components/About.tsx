@@ -1,19 +1,14 @@
 import { useInView } from 'react-intersection-observer';
-import { HiClock, HiPaintBrush, HiCurrencyDollar, HiOutlineHandRaised } from 'react-icons/hi2';
+import { HiPaintBrush, HiCurrencyDollar, HiOutlineHandRaised, HiShieldCheck } from 'react-icons/hi2';
 
 const stats = [
-  { value: '24h', label: 'Fast Delivery' },
   { value: '100%', label: 'Custom Design' },
   { value: '100%', label: 'Client Satisfaction' },
   { value: '24/7', label: 'Support' },
+  { value: 'R500', label: 'Starting Price' },
 ];
 
 const pillars = [
-  {
-    icon: HiClock,
-    title: 'Fast Delivery',
-    description: 'Your website, ready in 24 hours. We respect your time and get your business online quickly.',
-  },
   {
     icon: HiPaintBrush,
     title: 'Custom Design',
@@ -23,6 +18,11 @@ const pillars = [
     icon: HiCurrencyDollar,
     title: 'Affordable Pricing',
     description: 'Premium quality at prices that make sense. Starting from just R500, because every business deserves a great website.',
+  },
+  {
+    icon: HiShieldCheck,
+    title: 'Reliable & Secure',
+    description: 'Free domain and hosting for 1 year, with SSL security and backups to keep your site safe and running smoothly.',
   },
   {
     icon: HiOutlineHandRaised,
