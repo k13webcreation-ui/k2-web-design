@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import VideoShowcase from './components/VideoShowcase';
 import Services from './components/Services';
 import About from './components/About';
 import Testimonials from './components/Testimonials';
@@ -14,6 +15,7 @@ export default function App() {
       <Navbar />
       <main>
         <Hero />
+        <VideoShowcase />
         <Services />
         <About />
         <Testimonials />
