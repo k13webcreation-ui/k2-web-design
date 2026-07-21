@@ -6,7 +6,7 @@ const faqs = [
   {
     question: 'How much does a website cost?',
     answer:
-      'Our packages start from just R500. We also offer 50% off all website packages for a limited time, including free domain and hosting for 1 year. Contact us for a custom quote based on your specific needs.',
+      'Our packages start from just R500, including free domain and hosting for 1 year. Contact us for a custom quote based on your specific needs.',
   },
   {
     question: 'What is the free demo?',
@@ -110,7 +110,7 @@ export default function FAQ() {
               reach out to us on WhatsApp.
             </p>
             <a
-              href="https://wa.me/27636984070?text=Hi%20K2%20Web%20Design%2C%20I%20have%20a%20question."
+              href="https://wa.me/27616691317?text=Hi%20K2%20Web%20Design%2C%20I%20have%20a%20question."
               target="_blank"
               rel="noopener noreferrer"
               className="btn-secondary inline-flex"

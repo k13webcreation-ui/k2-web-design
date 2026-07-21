@@ -4,7 +4,7 @@ import { HiClock, HiPaintBrush, HiCurrencyDollar, HiOutlineHandRaised } from 're
 const stats = [
   { value: '24h', label: 'Fast Delivery' },
   { value: '100%', label: 'Custom Design' },
-  { value: '50%', label: 'Off Packages' },
+  { value: '100%', label: 'Client Satisfaction' },
   { value: '24/7', label: 'Support' },
 ];
 
@@ -85,7 +85,7 @@ export default function About() {
               into real enquiries. The free demo lets you see the quality before you decide.
             </p>
             <a
-              href="https://wa.me/27636984070?text=Hi%20K2%20Web%20Design%2C%20I%27m%20interested%20in%20your%20services."
+              href="https://wa.me/27616691317?text=Hi%20K2%20Web%20Design%2C%20I%27m%20interested%20in%20your%20services."
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary inline-flex"

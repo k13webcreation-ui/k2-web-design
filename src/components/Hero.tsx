@@ -20,7 +20,7 @@ export default function Hero() {
       {/* Background Effects */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary-500/10 rounded-full blur-3xl animate-float" />
-        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '-3s' }} />
+        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '-3s' }} />
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary-600/5 rounded-full blur-3xl" />
         {/* Grid pattern */}
         <div
@@ -44,7 +44,7 @@ export default function Hero() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary-400 opacity-75" />
               <span className="relative inline-flex rounded-full h-2 w-2 bg-primary-500" />
             </span>
-            50% Off All Website Packages
+            Free Website Demo — See It Before You Commit
           </div>
 
           {/* Headline */}
@@ -75,7 +75,7 @@ export default function Hero() {
             }`}
           >
             <a
-              href="https://wa.me/27636984070?text=Hi%20K2%20Web%20Design%2C%20I%27d%20like%20a%20free%20website%20demo%20for%20my%20business."
+              href="https://wa.me/27616691317?text=Hi%20K2%20Web%20Design%2C%20I%27d%20like%20a%20free%20website%20demo%20for%20my%20business."
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary text-lg group"

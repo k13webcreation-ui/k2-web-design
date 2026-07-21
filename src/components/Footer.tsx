@@ -18,7 +18,7 @@ const footerLinks = {
 };
 
 const socialLinks = [
-  { icon: FaWhatsapp, href: 'https://wa.me/27636984070', label: 'WhatsApp', color: 'hover:text-green-400' },
+  { icon: FaWhatsapp, href: 'https://wa.me/27616691317', label: 'WhatsApp', color: 'hover:text-green-400' },
   { icon: FaFacebookF, href: 'https://facebook.com', label: 'Facebook', color: 'hover:text-blue-400' },
   { icon: FaInstagram, href: 'https://instagram.com', label: 'Instagram', color: 'hover:text-pink-400' },
   { icon: FaTiktok, href: 'https://tiktok.com', label: 'TikTok', color: 'hover:text-cyan-400' },
@@ -90,13 +90,13 @@ export default function Footer() {
             <h3 className="font-semibold text-white mb-4 text-sm">Contact Us</h3>
             <ul className="space-y-3 text-sm text-dark-400">
               <li>
-                <a href="tel:+27636984070" className="hover:text-white transition-colors duration-300">
-                  +27 63 698 4070
+                <a href="tel:+27616691317" className="hover:text-white transition-colors duration-300">
+                  061 669 1317
                 </a>
               </li>
               <li>
-                <a href="mailto:info@k2webdesign.co.za" className="hover:text-white transition-colors duration-300">
-                  info@k2webdesign.co.za
+                <a href="mailto:k2webdesign@outlook.com" className="hover:text-white transition-colors duration-300">
+                  k2webdesign@outlook.com
                 </a>
               </li>
               <li>South Africa</li>
