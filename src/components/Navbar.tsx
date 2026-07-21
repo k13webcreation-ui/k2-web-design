@@ -47,8 +47,8 @@ export default function Navbar() {
               </div>
               <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-primary-400 to-primary-600 blur-lg opacity-0 group-hover:opacity-40 transition-opacity duration-300" />
             </div>
-            <span className="text-xl font-bold text-white">
-              K2 <span className="text-primary-400">Web</span>
+            <span className="text-xl font-bold text-white uppercase tracking-wide">
+              K2 Web Design
             </span>
           </a>
 

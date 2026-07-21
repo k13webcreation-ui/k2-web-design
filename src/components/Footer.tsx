@@ -40,8 +40,8 @@ export default function Footer() {
                             transition-transform duration-300 group-hover:scale-110">
                 K2
               </div>
-              <span className="text-xl font-bold text-white">
-                K2 <span className="text-primary-400">Web</span>
+              <span className="text-xl font-bold text-white uppercase tracking-wide">
+                K2 Web Design
               </span>
             </a>
             <p className="text-dark-400 leading-relaxed max-w-md mb-6 text-sm">
